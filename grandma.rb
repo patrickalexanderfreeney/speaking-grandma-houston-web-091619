@@ -1,5 +1,5 @@
 def speak_to_grandma(response)
-  if response == response.upcase
+  if response.upcase?
     puts "NO, NOT SINCE 1938!"
   elsif response == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN"
