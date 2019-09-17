@@ -1,5 +1,4 @@
-def speak_to_grandma
-  response = gets.chomp
+def speak_to_grandma(response)
   if response == response.upcase
     puts "NO, NOT SINCE 1938!"
   elsif response == "I LOVE YOU GRANDMA!"
