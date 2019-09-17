@@ -1,4 +1,4 @@
-def speak to grandma
+def speak_to_grandma
   response = gets.chomp
   if response == response.upcase
     puts "NO, NOT SINCE 1938!"
